@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dual-API AI Chatbot</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/dracula.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>AI Chat Assistant</h1>
+            <div class="status-indicator" id="status">Powered by DeepSeek V3</div>
+        </header>
+        
+        <div class="chat-history" id="chat-history"></div>
+        
+        <div class="input-area">
+            <textarea 
+                id="message-input" 
+                placeholder="Type your message..." 
+                autofocus
+            ></textarea>
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="/static/js/highlight.min.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
